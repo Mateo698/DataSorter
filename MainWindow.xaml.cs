@@ -23,6 +23,7 @@ namespace DataSorter
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Municipality> localData = new List<Municipality>();
         public MainWindow()
         {
             InitializeComponent();
@@ -37,7 +38,7 @@ namespace DataSorter
         {
             if(comboBox.SelectedItem != null)
             {
-
+                dataTable.ItemsSource = filteredData();
             };
         }
 
@@ -50,25 +51,20 @@ namespace DataSorter
             }
         }
 
-        public List<Municipality> filteredData(string path)
+        public List<Municipality> filteredData()
         {
-            var lines = File.ReadAllLines(path);
 
-            var data = from l in lines.Skip(1)
-                       let split = l.Split(',')
-                       if (true)
+            List<Municipality> realData = localData;
+            List<Municipality> filterData = new List<Municipality>();
+
+            for(int i = 0; i < realData.Count; i++)
             {
-                select new Municipality
+                if (realData[i].depName.Equals(comboBox.SelectedItem))
                 {
-                    depCode = split[0],
-                    munCode = split[1],
-                    depName = split[2],
-                    munName = split[3],
-                    type = split[4]
-                };
-            };
-                       
-            return data.ToList();
+                    filterData.Add(realData[i]);
+                }
+            }
+            return filterData;
         }
 
         public List<Municipality> bindData(string path)
@@ -98,7 +94,13 @@ namespace DataSorter
                             munName = split[3],
                             type = split[4]
                         };
+            localData = data.ToList();
             return data.ToList();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 

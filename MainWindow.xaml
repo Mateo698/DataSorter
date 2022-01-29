@@ -11,6 +11,7 @@
         <DataGrid x:Name="dataTable" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="231,49,120,51" SelectionChanged="DataGrid_SelectionChanged"/>
         <Button Content="Load Data" HorizontalAlignment="Left" Margin="67,98,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Label x:Name="statusData" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="96,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="typeReport" Content="Type report" HorizontalAlignment="Left" Margin="69,319,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

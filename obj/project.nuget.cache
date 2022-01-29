@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9w7wBjw6EexsqxbhD3gb6Pf7Pe6qcqWWPZYCRpvnLry6iM9mL0Z6eG6KKOlQyE0wKqcuwiOe08gz1q1LYt3nbg==",
+  "dgSpecHash": "rbfOwXAgnrnrvyjvozE9j1W+zPJp0OHa25ttsVCpc4GbRZ27ab2TdOZmhce+Ph88Glf0mdIFaR4lyQX751zseA==",
   "success": true,
   "projectFilePath": "D:\\Universidad\\PI1\\DataSorter\\DataSorter.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mateo\\.nuget\\packages\\dotnetprojects.wpftoolkit.datavisualization\\6.1.94\\dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
+  ],
   "logs": []
 }
