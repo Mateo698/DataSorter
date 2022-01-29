@@ -76,7 +76,7 @@ namespace DataSorter {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DataSorter;component/typereport.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DataSorter;V1.0.0.0;component/typereport.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TypeReport.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
