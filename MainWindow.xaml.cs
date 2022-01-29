@@ -100,7 +100,33 @@ namespace DataSorter
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            Window1 typeChar = new Window1(count());
+            typeChar.Show();
+        }
 
+        private List<int> count()
+        {
+            List<int> list = new List<int>();
+            int mun = 0;
+            int isl = 0;
+            int nom = 0;
+            for(int i = 0; i < localData.Count; i++)
+            {
+                if (localData[i].type.Equals("Municipio")){
+                    mun++;
+                }else if (localData[i].type.Equals("Isla"))
+                {
+                    isl++;
+                }
+                else
+                {
+                    nom++;
+                }
+            }
+            list.Add(mun);
+            list.Add(isl);
+            list.Add(nom);
+            return list;
         }
     }
 

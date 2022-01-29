@@ -3,11 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:DVC="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
-        xmlns:local="clr-namespace:DataSorter"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="209,59,0,0" Stroke="Black" VerticalAlignment="Top" Width="520"/>
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="209,114,0,0" Stroke="Black" VerticalAlignment="Top" Width="38"/>
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="209,178,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Municipio" HorizontalAlignment="Left" Margin="94,61,0,0" VerticalAlignment="Top"/>
+        <Label Content="Isla" HorizontalAlignment="Left" Margin="112,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Area no municipalizada" HorizontalAlignment="Left" Margin="59,185,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="209,53,0,0" Stroke="Black" VerticalAlignment="Top" Width="520"/>
+        <Label x:Name="firstL" Content="Label" HorizontalAlignment="Left" Margin="450,61,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="sndL" Content="Label" HorizontalAlignment="Left" Margin="209,121,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="thrdL" Content="Label" HorizontalAlignment="Left" Margin="240,185,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

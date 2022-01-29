@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using LiveCharts;
+using LiveCharts.Wpf;
 
 namespace DataSorter
 {
@@ -19,9 +21,16 @@ namespace DataSorter
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
+        public List<int> list;
+        public Window1(List<int> listt)
         {
             InitializeComponent();
+            list = listt;
+            firstL.Content = list[0];
+            sndL.Content = list[1];
+            thrdL.Content = list[2];
         }
+
     }
+
 }

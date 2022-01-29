@@ -19,3 +19,8 @@ D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\DataSorter.dll
 D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\ref\DataSorter.dll
 D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\DataSorter.pdb
 D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\DataSorter.genruntimeconfig.cache
+D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\TypeReport.g.cs
+D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\TypeReport.baml
+D:\Universidad\PI1\DataSorter\obj\Debug\net6.0-windows\DataSorter.csproj.CopyComplete
+D:\Universidad\PI1\DataSorter\bin\Debug\net6.0-windows\LiveCharts.dll
+D:\Universidad\PI1\DataSorter\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
